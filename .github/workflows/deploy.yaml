@@ -23,7 +23,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           application_name: Frontend
           environment_name: Frontend-env
-          existing_bucket_name: Frontend-env.eba-hbekejpz.us-west-2.elasticbeanstalk.com
+          existing_bucket_name: elasticbeanstalk-us-west-2-861537681158
           region: us-west-2
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
